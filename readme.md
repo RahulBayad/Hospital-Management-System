@@ -6,11 +6,11 @@ You can use this project for study purpose.
 
 // How to use
 
-STEP 1: Install XAMPP Control Panel.
-STEP 2: Install PhpMyAdmin and extract files
-STEP 3: Open this folder --> htdocs. Now copy the project folder in this folder(htdocs).
-STEP 4: Start Apache and MySQL.
-STEP 5: Type "localhost/hms" in browser" (Now you can open the project)
+STEP 1: Install XAMPP Control Panel. <br>
+STEP 2: Install PhpMyAdmin and extract files <br>
+STEP 3: Open this folder --> htdocs. Now copy the project folder in this folder(htdocs). <br>
+STEP 4: Start Apache and MySQL. <br>
+STEP 5: Type "localhost/hms" in browser" (Now you can open the project) <br>
 
 Note : 
 Login Page : {
