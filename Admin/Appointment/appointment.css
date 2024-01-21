@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+.right{
+    padding: 30px 40px;
+    /* border: 1px solid red; */
+}
+.title-and-search{
+    border-bottom: 1px solid rgb(184, 184, 184);
+    padding: 0 40px;
+    height: 50px;
+    width: 100%;
+    background-color: blue;
+    /* background-color: black; */
+}
+.appointment-box{
+    border: 1px solid rgb(184, 184, 184);
+}
+.search-patient{
+    display: flex;
+    position: relative;  
+    border: 1px solid rgb(184, 184, 184);
+    float: right;
+    right: 0px;
+    top: 12px;
+    border-radius: 3px;
+}
+#add-btn{
+    text-align: center;
+}
+#new-appointment-btn{
+    background-color: rgb(21, 93, 249); ;
+    /* background-color: black; */
+    color: white;
+    padding: 8px 20px;
+    font-size: 14px;
+    cursor: pointer;
+}   
+.appointment-box #title{
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 50px;
+    float: left;
+}
+.search-patient #search_patient{
+    height: 26px;
+    width: 250px;
+    /* margin-top: 0px; */
+    outline: none;
+    border: none;
+    border-right: 1px solid rgb(149, 149, 149);
+}
+.search-patient button{
+    padding: 0;
+    border: none;
+}
+.search-patient i{
+    font-size: 15px;
+    border-left: none;
+    border: none;
+    cursor: pointer;
+    padding: 0 4px;
+    padding-bottom: 4   px;
+    padding-top: 6px;
+    color: rgb(100, 100, 100);
+    background-color: white;
+}
+
+.patient-info-table{
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+.patient-info-table tr td{
+    height: 30px;
+    font-size: 14px;
+}
+.patient-info-table tr td .input input{
+    height: 30px;
+    cursor: not-allowed;
+    /* width: 250px; */
+}
+.patient-info-table tr td .input select{
+    height: 30px;
+    outline:none;
+    width: 50px;
+}
+table#patient-info-table td:nth-child(6){
+    width:400px;
+}
+table#patient-info-table td:nth-child(6) input{
+    width:300px;
+}
+table#patient-info-table td:nth-child(3) input{
+    width:250px;
+}
+table#patient-info-table td:nth-child(9) input{
+    width:250px;
+}
+#lastvisit-date{
+    width:100px;
+}
+
+input[type="time"]::-webkit-calendar-picker-indicator {
+    /* background: none; */
+    width:2px;
+}
+.patient-info-table tr td .input select{
+    height: 30px;
+    outline:none;
+    width: 50px;
+}
+
+/* APPOINTMENT DETAILS */
+
+.appointment_details{
+    padding:0 40px;
+}
+
+.appointment-details{
+    border-collapse: collapse;
+    width:100%;
+}
+table#appointment-details tr:nth-child(1){
+    font-weight: 600;
+    line-height: 40px;
+    font-size: 14px;
+    color: white;
+    background-color: rgb(21, 93, 249);
+    /* background-color: rgb(65, 65, 65); */
+    /* border-top: 1px solid black;
+    border-bottom: 1px solid black; */
+}
+#appointment-details tr td{
+    line-height: 40px;
+}
+#appointment-details tr:hover{
+    border-bottom: 1px solid rgb(210, 210, 210);
+    background-color: rgb(241, 241, 241);
+}
+table#appointment-details td:nth-child(1){
+    text-align: center;
+}
+table#appointment-details td:nth-child(3){
+    text-align: center;
+}
+table#appointment-details td:nth-child(4){
+    text-align: center;
+}
+table#appointment-details td:nth-child(5){
+    text-align: center;
+}
+table#appointment-details td:nth-child(6){
+    text-align: center;
+}
+table#appointment-details td:nth-child(7){
+    text-align: center;
+}
+
+.appointment-details tr td #edit{
+    font-size: 13px;
+    transition: all 100ms;
+}
+.appointment-details tr td #edit:hover{
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/* ADD APPOINTMENT */
+
+#new-appointment{
+    border: 1px solid rgb(175, 175, 175);
+    background-color: rgb(237, 237, 237);
+    width: 1400px;
+    position: absolute;
+    top: 20%;
+    left: 4%;
+    transform: scale(0% ,0%);
+    /* transform: translate(-600px,-600px); */
+    box-shadow: 0 0 10px rgb(83, 83, 83);
+    transition: all 200ms;
+}
+#edit-appointment{
+    border: 1px solid rgb(175, 175, 175);
+    background-color: rgb(237, 237, 237);
+    width: 1400px;
+    position: absolute;
+    top: 20%;
+    left: 4%;
+    transform: scale(0% ,0%);
+    /* transform: translate(-600px,-600px); */
+    box-shadow: 0 0 10px rgb(83, 83, 83);
+    transition: all 200ms;
+}
+.appointment-form .row1{
+    display: flex;
+    gap: 50px;
+    padding: 0 50px;
+}
+.appointment-form .row2{
+    display: flex;
+    gap: 50px;
+    padding: 0 50px;
+}
+.appointment-form .row3{
+    display: flex;
+    gap: 90px;
+    padding: 0 50px;
+}
+.appointment-form .row1 .input{
+    display: flex;
+    flex-direction: column;
+}
+.appointment-form .row2 .input{
+    display: flex;
+    flex-direction: column;
+}.appointment-form .row3 .input{
+    display: flex;
+    flex-direction: column;
+}
+.appointment-form  input{
+    border: 1px solid rgb(184, 184, 184);
+    width: 289px;
+    outline: none;
+    height: 25px;
+}
+.appointment-form  select{
+    border: 1px solid rgb(184, 184, 184);
+    width: 289px;
+    outline: none;
+    height: 25px;
+}
+.new-appointment .heading1{
+    background-color: blue;
+    padding: 8px 50px;
+    border: none;
+}
+.new-appointment .heading1 i{
+    position: relative;
+    float: right;
+    font-size: 17px;
+    color: white;
+    top:6px;
+    left: 30px;
+    transition: all 50ms;
+    cursor: pointer;
+}
+.new-appointment .heading1 i:hover{
+    font-size: 23px;
+    top: 4px;
+}
+.new-appointment .heading1 input{
+    height: 25px;
+    background-color: white;
+    width: 200px;
+    font-weight: 700;
+    pointer-events: none;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    padding-left: 15px;
+    font-weight: 500;
+    font-size: 14px;
+}
+.edit-appointment .heading1{
+    background-color: blue;
+    padding: 8px 50px;
+    border: none;
+}
+.edit-appointment .heading1 i{
+    position: relative;
+    float: right;
+    font-size: 17px;
+    color: white;
+    top:6px;
+    left: 30px;
+    transition: all 50ms;
+    cursor: pointer;
+}
+.edit-appointment .heading1 i:hover{
+    font-size: 23px;
+    top: 4px;
+}
+.edit-appointment .heading1 input{
+    height: 25px;
+    background-color: white;
+    width: 200px;
+    font-weight: 700;
+    pointer-events: none;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    padding-left: 15px;
+    font-weight: 500;
+    font-size: 14px;
+}
+.appointment-form input[type=submit]{
+    background-color: rgb(43, 43, 255);
+    border: 1px solid rgb(184, 184, 184);
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: auto;
+    font-size: 15px;
+    font-weight: 500;
+    height: auto;
+    padding: 8px 20px;
+    border-radius: 3px;
+    position: relative;
+    top: 10px;
+    left: 500px;
+}
+.appointment-form input[type=button]{
+    background-color: rgb(43, 43, 255);
+    border: 1px solid rgb(184, 184, 184);
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: auto;
+    height: auto;
+    padding: 8px 20px;
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: 500;
+    position: relative;
+    top: 10px;
+    left: 495px;
+}
+.appointment-form textarea{
+    outline: none;
+    border: 1px solid rgb(184, 184, 184);   
+}
+.appointment-form .btns{
+    text-align: center;
+    position: relative; 
+}

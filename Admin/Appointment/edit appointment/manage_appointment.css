@@ -1,0 +1,162 @@
+.right{
+    /* border: 1px solid red; */
+    padding: 10px 40px;
+}
+.manage-appointments h1{
+    /* border-bottom: 1px solid rgb(175, 175, 175); */
+    font-weight: 600;
+    font-size: 25px;
+    padding:0 40px;
+    line-height: 40px;
+}
+.manage-appointments .row1{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 40px;
+    gap: 10%;
+}
+.manage-appointments .row2{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 40px;
+    gap: 10%;
+}
+.manage-appointments .input{
+    display: flex;
+    flex-direction: column;
+}
+.manage-appointments button{
+    height: 40px;
+    background-color: rgb(46, 46, 255);
+    border: none;
+    color: white;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    position: relative;
+    top: 12px;
+    padding: 1px 10px;
+}
+.manage-appointments .row1 input[type=date]{
+    width: 300px;
+    height: 30px;
+    outline: none;
+    border: 1px solid rgb(175, 175, 175);
+}
+.manage-appointments .row2 input[type=button]{
+    height: 30px;
+    background-color: rgb(16, 91, 255);;
+    color: white;
+    border: none;
+    letter-spacing: 2px;
+    cursor: pointer;
+    font-weight: 500;
+    padding: 0px 20px;
+    padding-top: 2px;
+    position: relative;
+    top: 20px;
+    /* float: right; */
+
+}
+.manage-appointments select{
+    height: 30px;
+    width: 400px;
+    outline: none;
+    border: 1px solid rgb(175, 175, 175);
+}
+
+/* APPOINTMENT DETAILS */
+.appointment_details{
+    /* padding:0 40px; */
+    border: 1px solid rgb(175, 175, 175);
+    margin: 0 40px;
+
+}
+.fixing{
+    /* border: 1px solid red; */
+    padding: 0;
+    overflow: scroll;
+    height: 310px;
+}
+.appointment-details{
+    border-collapse: collapse;
+    width:100%;
+}
+#table-titles{
+    width: 100%;
+    border-collapse: collapse;
+}
+table#table-titles tr:nth-child(1){
+    font-weight: 600;
+    line-height: 40px;
+    font-size: 14px;
+    width: 100%;
+    color: white;
+    background-color: rgb(21, 93, 249);
+}
+#appointment-details tr{
+    height: 40px;
+    border-bottom: 1px solid rgb(175, 175, 175);
+}
+#appointment-details tr td{
+    line-height: 40px;
+    
+}
+#appointment-details tr:hover{
+    border-bottom: 1px solid rgb(210, 210, 210);
+    background-color: rgb(241, 241, 241);
+}
+table#table-titles td:nth-child(1){
+    text-align: center;
+}
+table#table-titles td:nth-child(3){
+    text-align: center;
+}
+table#table-titles td:nth-child(4){
+    text-align: center;
+}
+table#table-titles td:nth-child(5){
+    text-align: center;
+}
+table#table-titles td:nth-child(7){
+    text-align: center;
+}
+table#table-titles td:nth-child(8){
+    text-align: center;
+}
+table#table-titles td:nth-child(9){
+    text-align: center;
+}
+table#table-titles td:nth-child(10){
+    text-align: center;
+}
+table#appointment-details td:nth-child(1){
+    text-align: center;
+}
+table#appointment-details td:nth-child(3){
+    text-align: center;
+}
+table#appointment-details td:nth-child(4){
+    text-align: center;
+}
+table#appointment-details td:nth-child(5){
+    text-align: center;
+}
+table#appointment-details td:nth-child(7){
+    text-align: center;
+}
+table#appointment-details td:nth-child(8){
+    text-align: center;
+}
+table#appointment-details td:nth-child(9){
+    text-align: center;
+}table#appointment-details td:nth-child(10){
+    text-align: center;
+}
+.appointment-details tr td #edit{
+    font-size: 13px;
+    transition: all 100ms;
+}
+.appointment-details tr td #edit:hover{
+    font-size: 15px;
+    cursor: pointer;
+}

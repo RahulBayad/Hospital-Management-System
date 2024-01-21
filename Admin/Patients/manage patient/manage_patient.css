@@ -1,0 +1,169 @@
+.right{
+    /* border: 1px solid red; */
+    padding: 10px 40px;
+}
+.manage-patients h1{
+    font-weight: 600;
+    font-size: 25px;
+    /* padding:0 40px; */
+    line-height: 40px;
+}
+.manage-patients{
+    padding: 0 40px;
+    /* border: 1px solid black; */
+}
+.manage-patients .row1{
+    display: flex;
+    gap: 8%;
+}
+.manage-patients .row2{
+    display: flex;
+    gap: 8%;
+}
+.manage-patients .row3{
+    display: flex;
+    gap: 8%;
+}
+.manage-patients .input{
+    display: flex;
+    flex-direction: column;
+}
+.manage-patients input[type=text]{
+    width: 250px;
+    height: 30px;
+    outline: none;
+    border: 1px solid rgb(175, 175, 175);
+}
+.manage-patients input[type=date]{
+    width: 250px;
+    height: 30px;
+    outline: none;
+    border: 1px solid rgb(175, 175, 175);
+}
+.manage-patients input[type=submit]{
+    height: 30px;
+    background-color: rgb(16, 91, 255);;
+    color: white;
+    border: none;
+    letter-spacing: 2px;
+    cursor: pointer;
+    font-weight: 500;
+    padding: 0px 20px;
+    padding-top: 2px;
+    position: relative;
+    border-radius: 3px;
+    top: 20px;
+    /* float: right; */
+
+}
+.manage-patients select{
+    height: 30px;
+    width: 250px;
+    outline: none;
+    border: 1px solid rgb(175, 175, 175);
+}
+
+/* APPOINTMENT DETAILS */
+.patient_details{
+    /* padding:0 40px; */
+    /* position: relative; */
+    border: 1px solid rgb(175, 175, 175);
+    /* margin-top: 10px; */
+
+}
+.fixing{
+    /* border: 1px solid red; */
+    padding: 0;
+    overflow: scroll;
+    height: 310px;
+}
+.patient-details{
+    border-collapse: collapse;
+    width:100%;
+}
+#table-titles{
+    width: 100%;
+    border-collapse: collapse;
+}
+table#table-titles tr:nth-child(1){
+    font-weight: 600;
+    line-height: 40px;
+    font-size: 14px;
+    width: 100%;
+    color: white;
+    background-color: rgb(21, 93, 249);
+}
+#patient-details tr{
+    height: 40px;
+    border-bottom: 1px solid rgb(175, 175, 175);
+}
+#patient-details tr td{
+    line-height: 40px;
+    
+}
+#patient-details tr:hover{
+    border-bottom: 1px solid rgb(210, 210, 210);
+    background-color: rgb(241, 241, 241);
+}
+table#table-titles td:nth-child(1){
+    text-align: center;
+}
+table#table-titles td:nth-child(2){
+    text-align: center;
+}
+table#table-titles td:nth-child(3){
+    text-align: center;
+}
+table#table-titles td:nth-child(5){
+    text-align: center;
+}
+table#table-titles td:nth-child(6){
+    text-align: center;
+}
+table#table-titles td:nth-child(9){
+    text-align: center;
+}
+
+table#patient-details td:nth-child(1){
+    text-align: center;
+}
+table#patient-details td:nth-child(2){
+    text-align: center;
+}
+table#patient-details td:nth-child(3){
+    text-align: center;
+}
+table#patient-details td:nth-child(5){
+    text-align: center;
+}
+table#patient-details td:nth-child(6){
+    text-align: center;
+}
+
+table#patient-details td:nth-child(9){
+    text-align: center;
+}
+.patient-details tr td #edit{
+    font-size: 13px;
+    transition: all 100ms;
+}
+.patient-details tr td #edit:hover{
+    font-size: 15px;
+    cursor: pointer;
+}
+.patient-count{
+    pointer-events: none;
+    /* background-color: green; */
+    position: relative;
+    padding: 5px 0px;
+    text-align: right;
+}
+.patient-count span{
+    /* height: 25px; */
+    width:130px;
+    padding: 5px 15px;
+    padding-top: 8px;
+    color: rgb(44, 44, 44);
+    text-align: right;
+    background-color: rgb(254, 240, 150);
+}

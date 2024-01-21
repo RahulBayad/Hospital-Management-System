@@ -1,0 +1,161 @@
+body{
+    background-color: rgb(232, 244, 255);
+    /* text-decoration: none; */
+}
+.categories{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    padding:2% 3.9%;
+    gap:5%;    
+}
+.box{
+    border: 1px solid rgb(208, 208, 208);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7%;
+    width: 300px;
+    position: relative;
+    /* z-index: -1; */
+    background-color: white;
+}
+.box i{
+    font-size: 70px;
+    line-height: 100px;
+}
+.box span{
+    font-size: 99px;
+    line-height: 100px;
+    padding:0 0px;
+}
+#icon-doctor{
+    background-color: blue;
+    font-size: 78px;
+    padding:0 22px ;
+    color: white;
+}
+#icon-inpatient{
+    background-color: rgb(255, 0, 0);
+    font-size: 67px;
+    padding:0 15px;
+    color: white;
+}
+#icon-outpatient{
+    background-color: rgb(255, 242, 0);
+    font-size: 75px;
+    color: white;
+    padding:0 20px;
+}
+#icon-beds{
+    background-color: rgb(0, 236, 39);
+    font-size: 90px;
+    padding:0 12px;
+    color: white;
+}
+.box h2{
+    line-height: 70px;
+    font-size: 24px;
+    color:black;
+}
+.box h3{
+    position: absolute;
+    left: 64%;
+    top: 60%;
+    font-weight: 500;
+}
+#icon-doctor ~ a h2{
+    position: absolute;
+    letter-spacing: 1px;
+    left: 52%;
+}
+#icon-inpatient ~ a h2{
+    letter-spacing: 1px;
+    position: absolute;
+    left: 47%;
+}
+#icon-outpatient ~ a h2{
+    letter-spacing: 1px;
+    position: absolute;
+    left: 45%;
+}
+#icon-beds ~ a h2{
+    position: absolute;
+    letter-spacing: 2px;
+    left: 58%;
+}
+.table{
+    margin: 2% 3.9%;
+    /* border:1px solid rgb(175, 175, 175); */
+}
+.table table{
+    border-collapse: collapse;
+    width: 100%;
+}
+table tr{
+    height: 50px;
+}
+.overflow-adjust{
+    overflow-y: scroll;
+    height: 350px;
+    border-bottom: 1px solid rgb(175, 175, 175);  
+}
+#data tr{
+    height: 50px;
+}
+.table #outpatient tr{
+    background-color: blue;
+    color: white;
+    font-weight: 500;
+    height: 50px;
+    font-size: 15px;
+}
+
+table#outpatient td:nth-child(1){
+    text-align: center;
+}
+table#outpatient td:nth-child(2){
+    /* text-align: center; */
+    padding-left: 1.4%;
+}
+table#outpatient td:nth-child(3){
+    text-align: center;
+}
+table#outpatient td:nth-child(4){
+    text-align: center;
+}
+table#outpatient td:nth-child(5){
+    padding-left: 1.4%;
+}
+table#outpatient td:nth-child(6){
+    text-align: center;
+}
+table#outpatient td:nth-child(7){
+    text-align: center;
+}
+table#outpatient td:nth-child(8){
+    text-align: center;
+}
+table#data td:nth-child(1){
+    text-align: center;
+}
+table#data td:nth-child(2){
+    padding-left: 1.4%;
+}
+table#data td:nth-child(3){
+    text-align: center;
+}
+table#data td:nth-child(4){
+    text-align: center;
+}
+table#data td:nth-child(5){
+    padding-left: 1.4%;
+}
+table#data td:nth-child(6){
+    text-align: center;
+}
+table#data td:nth-child(7){
+    text-align: center;
+}
+table#data td:nth-child(8){
+    text-align: center;
+}
