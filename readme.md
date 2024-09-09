@@ -21,13 +21,13 @@ Login Page : {
 
 # Functions
 
-1. Login with password check 
-2. Dashboard shows total count of doctor , inpatients and outpatients also recent registred patient details.
-3. Registration of doctor , employee .
-4. Add Outpatient and inpatients.
-5. Edit Outpatient and inpatient data.
-6. Schedule Appointment .
-7. Patient and doctor data analysis.
+1. Login with password check <br>
+2. Dashboard shows total count of doctor , inpatients and outpatients also recent registred patient details. <br>
+3. Registration of doctor , employee . <br>
+4. Add Outpatient and inpatients.<br>
+5. Edit Outpatient and inpatient data.<br>
+6. Schedule Appointment .<br>
+7. Patient and doctor data analysis.<br>
 
 All this functions are made using html , css , js , PHP , MySQL .
 
