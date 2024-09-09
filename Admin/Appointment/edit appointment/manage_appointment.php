@@ -222,8 +222,8 @@
                                             $sql .= " AND patient_status    ='$status'";
                                         }                                 
                                     }   
-                                    $conn = mysqli_connect("localhost","root","","hms");
-                                    $runQuery = mysqli_query($conn,$sql);
+                                    $connect = mysqli_connect("localhost","root","","hms");
+                                    $runQuery = mysqli_query($connect,$sql);
                                     while($row = mysqli_fetch_assoc($runQuery)){
                                 ?>
                                 <tr>

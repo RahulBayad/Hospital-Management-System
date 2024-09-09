@@ -20,7 +20,6 @@
     $status = $_POST['status'];
     $note = $_POST['note'];
     $live = $_POST['live'];
-    $conn = mysqli_connect("localhost","root","","hms");
     $query1 = "INSERT INTO appointment(sr_no,patient_id,fname,mname,lname,gender,dob,department,doctor,fees,app_date,slot,mode,payment_method,patient_status,add_message,live_consultation,phone) 
     VALUES('','$id','$fname','$mname','$lname','$gender','$dob','$department', '$doctor', '$fees', '$app_date','$slots','$mode','$payment_type','$status','$note','$live','$phone')";
     $runQuery1 = mysqli_query($conn,$query1);

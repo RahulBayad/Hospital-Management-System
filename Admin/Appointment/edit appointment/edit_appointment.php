@@ -1,4 +1,5 @@
 <?php
+
     $id = $_POST['id'];
     $department = $_POST['department'];
     $doctor = $_POST['doctor'];

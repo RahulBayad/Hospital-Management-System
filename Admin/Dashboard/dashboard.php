@@ -84,15 +84,15 @@
                 </div>
         </aside>
         <?php
-            $conn = mysqli_connect("localhost","root","","hms");
+            $connect = mysqli_connect("localhost","root","","hms");
             $query = "SELECT * FROM register_outpatient";
-            $data = mysqli_query($conn,$query);    
+            $data = mysqli_query($connect,$query);    
             $outpatients = mysqli_num_rows($data);
             $query1 = "SELECT * FROM register_doctor";
-            $data1 = mysqli_query($conn,$query1);    
+            $data1 = mysqli_query($connect,$query1);    
             $doctors1 = mysqli_num_rows($data1);
             $query2 = "SELECT * FROM inpatients";
-            $data2 = mysqli_query($conn,$query2);    
+            $data2 = mysqli_query($connect,$query2);    
             $inpatients = mysqli_num_rows($data2);
             
         ?>
@@ -138,7 +138,7 @@
                 <table id="data" border="0px">
             <?php
                 $query3 = "SELECT * FROM inpatients";
-                $run = mysqli_query($conn,$query3);
+                $run = mysqli_query($connect,$query3);
                 while($row = mysqli_fetch_assoc($run)){
             ?>
                     <tr>
